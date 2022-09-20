@@ -31,7 +31,7 @@ input {
     width: 250px;
     margin: 12px 0px;
     padding: 12px 20px 12px 40px;
-    border: 1px solid #888;
+    border: 2px solid #e1e1e1;
     
     background-image: url('https://www.w3schools.com/css/searchicon.png');
     background-position: 10px 10px;
@@ -40,11 +40,11 @@ input {
 
 #myTable {
     border-collapse: collapse;
-    border: 1px #666 solid;
+    border: 1px #272123 solid;
 }
 
 #myTable .header {
-    background-color: slategray;
+    background-color: #272123;
     color: white;
 
     font-family: 'Fraunces', serif;
@@ -59,20 +59,167 @@ input {
 
 #myTable td {
     padding: 20px;
-    border: 1px #666 solid;
+    border: 1px #272123 solid;
 }
 
 #myTable tr {
-    background-color: aliceblue;
-    color: cornflowerblue;
+    background-color: #fefefe;
+    color: #272123;
 }
 
 #myTable tr:hover {
-    background-color: lightgreen;
-    color: darkolivegreen;
+    background-color: #ecdae0;
+    color: #000;
   }
   
 #myTable tr:first-child:hover {
-    background-color: slategray;
+    background-color: #272123;
+    color: white;
+}
+
+/* GENRES */
+.gAction {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: palevioletred;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gDrama {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: plum;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gMecha {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: grey;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gMystery {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: lightslategray;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gPsych {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: pink;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gSchool {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: cornflowerblue;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gSciFi {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: cadetblue;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gSoL {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: darkseagreen;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gSupernatural {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: mediumpurple;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.gSP {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: brown;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+/* HOSTING SITES */
+.hCrunchyroll {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: #F47521;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.hFunimation {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: #472d8e;
+
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.hNetflix {
+    width: auto;
+    margin: 2px;
+    padding: 10px 4px;
+    background-color: #d81f26;
+
+    text-align: center;
+    font-weight: 700;
     color: white;
 }

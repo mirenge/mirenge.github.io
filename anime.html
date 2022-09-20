@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <title>Mirenge Maunders</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,400;0,700;1,400&family=Fraunces:ital,opsz,wght@0,9..144,800;1,9..144,800&display=swap" rel="stylesheet">
+  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body onload="sortTableOnLoad();">
+
+    
+
+    <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Type to search">
+
+    <table id="myTable" cellpadding="0" cellspacing="0">
+      <tr class="header">
+        <td onclick="sortTable(0)">Title (English) <i class="fa fa-sort"></i></td>
+        <td onclick="sortTable(1)">Title (Japanese) <i class="fa fa-sort"></i></td>
+        <td onclick="sortTable(2)">Status <i class="fa fa-sort"></i></td>
+        <td onclick="sortTable(3)">Rating (Obj)<i class="fa fa-sort"></i></td>
+        <td onclick="sortTable(4)">Rating (Sbj)<i class="fa fa-sort"></i></td>
+        <td onclick="sortTable(5)">Genres <i class="fa fa-sort"></i></td>
+        <td onclick="sortTable(6)">Hosting Site <i class="fa fa-sort"></i></td>
+      </tr>
+      <tr>
+        <td>anohana: The Flower We Saw That Day</td>
+        <td>Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai</td>
+        <td>COMPLETED</td>
+        <td>08 / 10</td>
+        <td>08 / 10</td>
+        <td><p class="gDrama">Drama</p><p class="gSoL">Slice of Life</p><p class="gSupernatural">Supernatural</p></td>
+        <td><p class="hCrunchyroll">Crunchyroll</p></td>
+      </tr>
+      <tr>
+        <td>Code Geass: Lelouch of the Rebellion</td>
+        <td>Code Geass: Hanagyaku no Lelouch</td>
+        <td>COMPLETED</td>
+        <td>08 / 10</td>
+        <td>07 / 10</td>
+        <td><p class="gAction">Action</p><p class="gDrama">Drama</p><p class="gMecha">Mecha</p><p class="gSchool">School</p><p class="gSciFi">Sci-Fi</p><p class="gSP">Super Power</p></td>
+        <td><p class="hFunimation">Funimation</p></td>
+      </tr>
+      <tr>
+        <td>Erased</td>
+        <td>Boku dake ga Inai Machi</td>
+        <td>COMPLETED</td>
+        <td>09 / 10</td>
+        <td>10 / 10</td>
+        <td><p class="gMystery">Mystery</p><p class="gPsych">Psychological</p><p class="gSupernatural">Supernatural</p></td>
+        <td><p class="hCrunchyroll">Crunchyroll</p><p class="hNetflix">Netflix</p></td>
+      </tr>
+    </table>
+
+    <script src="/js/jquery-1.7.1.min.js"></script>
+	  <script src="/js/index.js"></script>
+  </body>
+
+</html>
