@@ -4,12 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
     <title>Mirenge Maunders</title>
+
+    <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,400;0,700;1,400&family=Fraunces:ital,opsz,wght@0,9..144,800;1,9..144,800&display=swap" rel="stylesheet">
+  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+
+  <body onload="sortTableOnLoad();">
+    
     <h1>Hello, this is mirenge-maunders!</h1>
     <p>This website is still very much in progress...</p>
-	<script src="/js/index.js"></script>
+
+    <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Type to search">
+
+    <table id="myTable" cellpadding="0" cellspacing="0">
+      <tr class="header">
+        <td onclick="sortTable(0)">Number <i class="fa fa-sort"></i></td>
+        <td onclick="sortTable(1)">Letter <i class="fa fa-sort"></i></td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>B Cool</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>D Cool</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>A Awesome</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>C Awesome</td>
+      </tr>
+    </table>
+
+    <script src="/js/jquery-1.7.1.min.js"></script>
+	  <script src="/js/index.js"></script>
   </body>
+
 </html>

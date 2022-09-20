@@ -1,0 +1,78 @@
+/*
+// FONTS
+font-family: 'Fraunces', serif;
+font-weight: 800, 800i;
+font-family: 'Bellota', cursive;
+font-weight: 400, 400i, 700;
+
+// COLORS
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 20px;
+
+    font-family: 'Bellota', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+}
+
+
+input {
+    width: 250px;
+    margin: 12px 0px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #888;
+    
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+#myTable {
+    border-collapse: collapse;
+    border: 1px #666 solid;
+}
+
+#myTable .header {
+    background-color: slategray;
+    color: white;
+
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+#myTable th {
+    padding: 0px;
+}
+
+#myTable td {
+    padding: 20px;
+    border: 1px #666 solid;
+}
+
+#myTable tr {
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+#myTable tr:hover {
+    background-color: lightgreen;
+    color: darkolivegreen;
+  }
+  
+#myTable tr:first-child:hover {
+    background-color: slategray;
+    color: white;
+}
